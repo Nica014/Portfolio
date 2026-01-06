@@ -4,6 +4,7 @@ import ProfileCard from "@/src/components/ProfileCard";
 import AboutCard from "@/src/components/AboutCard";
 import TechStackCard from "@/src/components/TechStackCard";
 import ExperienceCard from "@/src/components/ExperienceCard";
+import ProjectsCard from "@/src/components/ProjectsCard";
 
 const HomeView = () => {
   return (
@@ -22,6 +23,7 @@ const HomeView = () => {
         {/* Right Column */}
         <div className="space-y-6">
           <ExperienceCard />
+          <ProjectsCard />
         </div>
       </div>
     </section>

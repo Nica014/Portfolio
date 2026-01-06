@@ -18,9 +18,17 @@ const AboutCard = () => {
       </p>
       <br />
       <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-        Motivated to take on new challenges and responsibilities that support
-        both personal learning and team success in creating quality web
-        solutions.
+        Motivated to take on new challenges and responsibilities, I continuously
+        strive to improve my skills and stay updated with modern frontend
+        practices. I enjoy collaborating with teammates, sharing ideas, and
+        contributing to efficient, user-focused web solutions that help projects
+        move forward successfully. I take pride in being reliable and adaptable,
+        especially when timelines change or priorities shift.
+      </p>
+      <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+        <br />
+        My goal is always to learn from every project while helping the team
+        deliver clean, responsive, and meaningful digital experiences.
       </p>
     </Card>
   );

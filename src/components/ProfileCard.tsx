@@ -25,7 +25,7 @@ const ProfileCard = () => {
       {/* Profile Info */}
       <div className="flex-1">
         <div className="flex items-center gap-2 mb-2">
-          <h1 className="text-4xl md:text-5xl font-bold">Allen Alipio</h1>
+          <h1 className="text-4xl md:text-4xl font-bold">Allen Alipio</h1>
         </div>
         
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 mb-4">
@@ -46,10 +46,6 @@ const ProfileCard = () => {
           <button className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-xl font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors flex items-center gap-2">
             <Mail size={18} />
             Send Email
-          </button>
-          <button className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-xl font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors flex items-center gap-2">
-            <Users size={18} />
-            Visit my LinkedIn
           </button>
         </div>
       </div>
