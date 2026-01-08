@@ -1,5 +1,6 @@
     "use client";
 import React from "react";
+import Link from "next/link";
 import { FolderGit2, ExternalLink } from "lucide-react";
 
 interface Project {
@@ -13,27 +14,27 @@ const ProjectsCard = () => {
     {
       title: "GOVET",
       description: "Capstone Project (Veterinary online booking app)",
-      url: "govet.com",
+      url: "https://github.com/charot-git/capstonegovet",
     },
     {
       title: "WAH COOP",
       description: "Internship Project (COOP web app)",
-      url: "wah-coop.com",
+      url: "https://github.com/dznice/WAHIE-COOP",
     },
     {
       title: "Chunk Nibbles",
       description: "Online store for premium snack products",
-      url: "chunknibbles.com",
+      url: "https://chunknibbles.com",
     },
     {
       title: "Radical",
       description: "Multimedia site for artists and studios",
-      url: "radical.com",
+      url: "http://radicalmusic.netlify.app/",
     },
     {
       title: "Clohane",
       description: "Site for beautiful Interiors",
-      url: "clohane.com",
+      url: "https://clohane.ie",
     },
   ];
 
@@ -56,8 +57,11 @@ const ProjectsCard = () => {
       {/* Projects Grid */}
       <div className="grid grid-cols-1 gap-4">
         {projects.map((project, index) => (
-          <div
+          <Link
             key={index}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative p-4 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md transition-all duration-200 cursor-pointer group overflow-hidden"
           >
             <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-500 ease-in-out bg-gradient-to-r from-transparent via-white/40 dark:via-white/20 to-transparent" />
@@ -70,7 +74,7 @@ const ProjectsCard = () => {
             <div className="relative inline-flex items-center gap-1 px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-700 text-xs font-mono text-gray-700 dark:text-gray-300">
               {project.url}
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

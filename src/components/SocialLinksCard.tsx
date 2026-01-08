@@ -22,16 +22,6 @@ const SocialLinksCard = () => {
       url: "https://github.com",
     },
     {
-      name: "Instagram",
-      icon: <Instagram size={20} />,
-      url: "https://instagram.com",
-    },
-    {
-      name: "Twitter",
-      icon: <Twitter size={20} />,
-      url: "https://twitter.com",
-    },
-    {
       name: "YouTube",
       icon: <Youtube size={20} />,
       url: "https://youtube.com",
