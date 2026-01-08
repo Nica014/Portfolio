@@ -3,6 +3,7 @@ import React from "react";
 import ProfileCard from "@/src/components/ProfileCard";
 import AboutCard from "@/src/components/AboutCard";
 import TechStackCard from "@/src/components/TechStackCard";
+import SocialLinksCard from "@/src/components/SocialLinksCard";
 import ExperienceCard from "@/src/components/ExperienceCard";
 import ProjectsCard from "@/src/components/ProjectsCard";
 
@@ -18,6 +19,7 @@ const HomeView = () => {
         <div className="space-y-6">
           <AboutCard />
           <TechStackCard />
+          <SocialLinksCard />
         </div>
 
         {/* Right Column */}
