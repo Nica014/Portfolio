@@ -12,11 +12,6 @@ interface Project {
 const ProjectsCard = () => {
   const projects: Project[] = [
     {
-      title: "GOVET",
-      description: "Capstone Project (Veterinary online booking app)",
-      url: "https://github.com/charot-git/capstonegovet",
-    },
-    {
       title: "WAH COOP",
       description: "Internship Project (COOP web app)",
       url: "https://github.com/dznice/WAHIE-COOP",

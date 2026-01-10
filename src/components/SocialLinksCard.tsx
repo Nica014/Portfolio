@@ -1,7 +1,15 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { Link2, Linkedin, Github, Instagram, Twitter, Youtube } from "lucide-react";
+import {
+  Link2,
+  Linkedin,
+  Github,
+  Instagram,
+  Twitter,
+  Youtube,
+  Facebook,
+} from "lucide-react";
 
 interface SocialLink {
   name: string;
@@ -14,12 +22,17 @@ const SocialLinksCard = () => {
     {
       name: "LinkedIn",
       icon: <Linkedin size={20} />,
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/allen-alipio-1966b7285/",
     },
     {
       name: "GitHub",
       icon: <Github size={20} />,
-      url: "https://github.com",
+      url: "https://github.com/Alipioallen",
+    },
+    {
+      name: "Facebook",
+      icon: <Facebook size={20} />,
+      url: "https://www.facebook.com/allen.alipio.79/",
     },
     {
       name: "YouTube",
