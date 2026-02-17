@@ -16,7 +16,7 @@ const ProfileCard = () => {
         onMouseLeave={() => setIsHovered(false)}
       >
         <Image
-          src={isHovered ? "/allen-hover.png" : "/allen.png"}
+          src={isHovered ? "/alimurungnica-hover.png" : "/alimurungnica.png"}
           alt="Profile"
           fill
           className="object-cover transition-all duration-500 ease-in-out group-hover:scale-110"
@@ -26,7 +26,7 @@ const ProfileCard = () => {
       {/* Profile Info */}
       <div className="flex-1">
         <div className="flex items-center gap-2 mb-2">
-          <h1 className="text-4xl md:text-2xl font-bold">Allen Alipio</h1>
+          <h1 className="text-4xl md:text-2xl font-bold">Nica Alimurung</h1>
         </div>
         
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 mb-4">
@@ -35,13 +35,13 @@ const ProfileCard = () => {
         </div>
 
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-          Software Engineer \ Front End Developer
+          Front End Developer
         </p>
 
         {/* Action Buttons */}
         <div className="flex flex-wrap gap-3">
           <Link
-            href="/Alipio-Resume.pdf"
+            href="/Alimurung-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 bg-black dark:bg-white text-white dark:text-black rounded-xl font-medium hover:opacity-90 transition-opacity flex items-center gap-2"
@@ -50,7 +50,7 @@ const ProfileCard = () => {
             Resume
           </Link>
           <Link
-            href="mailto:alipioallen5@gmail.com"
+            href="mailto:alimurungnica14@gmail.com"
             className="px-6 py-2 border border-gray-300 dark:border-gray-600 rounded-xl font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors flex items-center gap-2"
           >
             <Mail size={18} />

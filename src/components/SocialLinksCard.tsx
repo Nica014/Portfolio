@@ -22,23 +22,18 @@ const SocialLinksCard = () => {
     {
       name: "LinkedIn",
       icon: <Linkedin size={20} />,
-      url: "https://www.linkedin.com/in/allen-alipio-1966b7285/",
+      url: "https://www.linkedin.com/in/nica-alimurung-49823b2b2/",
     },
     {
       name: "GitHub",
       icon: <Github size={20} />,
-      url: "https://github.com/Alipioallen",
+      url: "https://github.com/Nica014",
     },
     {
       name: "Facebook",
       icon: <Facebook size={20} />,
-      url: "https://www.facebook.com/allen.alipio.79/",
-    },
-    {
-      name: "YouTube",
-      icon: <Youtube size={20} />,
-      url: "https://youtube.com",
-    },
+      url: "https://www.facebook.com/nica.alimurung.3",
+    }
   ];
 
   return (

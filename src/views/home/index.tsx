@@ -20,16 +20,18 @@ const HomeView = () => {
         <div className="space-y-6">
           <AboutCard />
           <TechStackCard />
-          <SocialLinksCard />
         </div>
 
         {/* Right Column */}
         <div className="space-y-6">
           <ExperienceCard />
           <ProjectsCard />
-          <CertificationsCard />
         </div>
+
       </div>
+        <div className="mt-8 space-y-6 w-full">
+          <SocialLinksCard />
+        </div>
     </section>
   );
 };
